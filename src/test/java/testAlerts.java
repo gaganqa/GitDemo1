@@ -17,6 +17,7 @@ public class testAlerts {
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi") ;
 		//driver.get("https://www.way2automation.com/");
 		//driver.quit();
+		System.out.println("---------------");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//input[@name='proceed']")).click();
         /*Alert alert = driver.switchTo().alert();
