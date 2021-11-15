@@ -12,12 +12,11 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class testAlerts {
 
 	public static void main(String[] args) throws InterruptedException {
-		WebDriverManager.chromedriver().setup();
+		WebDriverManager.chromedriver().setup();// setting the browser
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://mail.rediff.com/cgi-bin/login.cgi") ;
 		//driver.get("https://www.way2automation.com/");
 		//driver.quit();
-		System.out.println("---------------");
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         driver.findElement(By.xpath("//input[@name='proceed']")).click();
         /*Alert alert = driver.switchTo().alert();

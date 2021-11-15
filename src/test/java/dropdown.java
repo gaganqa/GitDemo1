@@ -26,7 +26,7 @@ public class dropdown {
 		//System.out.println(values.get(0).getText());
 		for(int i=0;i<70;i++) {
 			System.out.println(values.get(i).getAttribute("lang"));
-		System.out.println("printing links-------------");
+		System.out.println("printing links->");
 		WebElement block =driver.findElement(By.xpath("//*[@id='www-wikipedia-org']/div[7]/div[3]"));
 		java.util.List<WebElement> list=block
 				.findElements(By.tagName("a"));

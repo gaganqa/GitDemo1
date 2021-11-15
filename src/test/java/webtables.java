@@ -15,8 +15,8 @@ public class webtables {
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://money.rediff.com/gainers/bsc/daily/groupa");
 		//driver.quit();
-		System.out.println("-----");
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
+		System.out.println("random change");
 		List<WebElement> rownum =driver.findElements(By.xpath("//table[@class='dataTable']/tbody/tr"));
         System.out.println("total number of rows are -:"+rownum.size());
         List<WebElement> colnum=driver.findElements(By.xpath("//table[@class='dataTable']/tbody/tr[1]/td"));
