@@ -10,7 +10,7 @@ public class testng2 {
 		System.out.println("demo1");
 		System.out.println("demo1");
 		System.out.println("demo1");
-		System.out.println("demo1");
+		
 	}
 
 }

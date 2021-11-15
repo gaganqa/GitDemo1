@@ -8,7 +8,7 @@ public class testng1 {
 		System.out.println("demo");
 		System.out.println("demo");
 		System.out.println("demo");
-		System.out.println("demo");
+		
 	}
 
 }
